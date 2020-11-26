@@ -63,7 +63,7 @@ a:hover, a:active {
 
 }
 
-.overlay {
+.container:hover .overlay {
     opacity: 1;
   }
 
