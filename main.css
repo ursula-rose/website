@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+.logo{
+    max-width: 5%;
+    max-height: 5%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.link{
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 10px;
+}
+
+a {color:rgb(71, 42, 49);
+    text-decoration:none;}
+
+a:hover, a:active {
+    text-decoration:line-through;
+    color: #AD6366;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
+    padding-top: 20px
+}
+
+.image {
+    display: block;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;   
+}
+
+.text {
+    display: flex;
+    color: rgba(107, 59, 71, 0.527);
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+
+.container:hover .overlay {
+    opacity: 1;
+  }
+
+.container {
+    display: flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-top: 20px;
+  
+}
+
+.footer {
+    color: black;
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
